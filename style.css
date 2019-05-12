@@ -29,7 +29,7 @@ p {
 }
 
 #navbar header {
- border: 1px solid gray;
+ border-bottom: 1px solid gray;
  height: 90px;
 }
 
@@ -50,7 +50,7 @@ nav p {
 }
 
 nav ul li {
- border: 1px solid gray;
+ border-bottom: 1px solid gray;
  padding: 5px 20px;
 }
 
@@ -58,8 +58,19 @@ nav a {
  font-size: 1.2em;
 }
 
+article li {
+ margin: 10px 40px;
+}
 
-#main-doc {}
+dl {
+ margin: 10px 40px;
+}
+
+dl dt {
+ font-weight: bold;
+ font-size: 1.2em;
+ padding: 10px 0px;
+}
 
 .main-section header {
  font-size: 2em;
@@ -78,7 +89,6 @@ nav a {
 
 .command-list {
  margin: 10px 20px;
- list-style: none;
 }
 
 .command-list dt {
@@ -129,5 +139,9 @@ footer {
 
  .back-to-top {
   display: none;
+ }
+
+ section {
+  padding: 30px;
  }
 }
