@@ -139,6 +139,7 @@ section {
  #main-doc {
   width: 67%;
   float: right;
+  overflow-x: hidden;
  }
 
  .back-to-top {
