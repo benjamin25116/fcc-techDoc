@@ -116,6 +116,10 @@ footer {
  background: lightblue;
 }
 
+section {
+ padding: 3vw;
+}
+
 @media screen and (min-width: 767px) {
  #navbar {
   float: left;
@@ -142,6 +146,6 @@ footer {
  }
 
  section {
-  padding: 30px;
+  padding: 6vw;
  }
 }
