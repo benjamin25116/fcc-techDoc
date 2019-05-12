@@ -1,0 +1,133 @@
+* {
+ padding: 0px;
+ margin: 0px;
+ font-size: 16px;
+ font-family: sans-serif;
+}
+
+pre {
+ font-family: monospace;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+p {
+ padding: 10px 20px;
+}
+
+#navbar {
+ display: flex;
+ flex-direction: column;
+ max-width: 100vw;
+ height: 150px;
+ background: lightblue;
+ border: 1px solid gray;
+ z-index: 1;
+}
+
+#navbar header {
+ border: 1px solid gray;
+ height: 90px;
+}
+
+nav ul {
+ height: auto;
+ overflow-x: hidden;
+ overflow-y: auto;
+}
+
+nav h1 {
+ font-size: 1.5em;
+ padding: 5px 20px;
+}
+
+nav p {
+ font-size: 0.8em;
+ padding-bottom: 5px;
+}
+
+nav ul li {
+ border: 1px solid gray;
+ padding: 5px 20px;
+}
+
+nav a {
+ font-size: 1.2em;
+}
+
+
+#main-doc {}
+
+.main-section header {
+ font-size: 2em;
+ padding: 10px 20px;
+}
+
+.code {
+ width: 80%;
+ margin: auto;
+ overflow-x: scroll;
+ background: lightgray;
+ padding: 10px;
+ border-radius: 5px;
+
+}
+
+.command-list {
+ margin: 10px 20px;
+ list-style: none;
+}
+
+.command-list dt {
+ font-weight: bold;
+ margin: 5px 0px;
+}
+
+.command-list dd {
+ margin-bottom: 20px;
+}
+
+#update a {
+ color: midnightblue;
+ font-weight: bold;
+}
+
+.back-to-top {
+ color: midnightblue;
+ font-weight: bold;
+ padding: 0px 20px;
+}
+
+footer {
+ width: 100vw;
+ background: lightblue;
+}
+
+@media screen and (min-width: 767px) {
+ #navbar {
+  float: left;
+  width: 33%;
+  height: 100vh;
+  position: fixed;
+ }
+
+ #navbar header {
+  height: 150px;
+ }
+
+ #navbar li {
+  padding: 20px;
+ }
+
+ #main-doc {
+  width: 67%;
+  float: right;
+ }
+
+ .back-to-top {
+  display: none;
+ }
+}
